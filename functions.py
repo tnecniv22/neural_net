@@ -1,6 +1,6 @@
 ### Activation and Loss Functions for NN ###
 
-###Activation Functions
+### Activation Functions
 
 #Sigmoid
 def sigmoid(x):
@@ -10,13 +10,14 @@ def sigmoid_d(x):
     sig = sigmoid(x)
     return sig * (1 - sig)
 
+#Linear
 def linear(x):
     return x
 
 def linear_d(x):
     return 1
 
-####Loss Functions
+### Loss Functions
 
 #L2 Loss
 def l2loss(x,t):
